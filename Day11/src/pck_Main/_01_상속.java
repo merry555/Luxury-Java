@@ -1,0 +1,49 @@
+package pck_Main;
+
+import pck_Src.*;
+
+
+public class _01_상속 {
+
+	/*
+	 * 실습 : 설계용 클래스 3개 
+	 * 	1) 학생 : 이름, 연락처, 평균점수
+	 * 	2) 직원 : 이름, 연락처, 월급, 직급
+	 * 	3) 선수 : 이름, 연락처, 연봉, 키, 몸무게
+	 * 
+	 * < 상속 ? 기존 클래스의 멤버, 메소드를 토대로 새 클래스를 만드는 것 (확장) >
+	 *  - 슈퍼 클래스 / 서브 클래스
+	 *  - 부모 클래스 / 자식 클래스
+	 */
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		e.name = "둘리";
+		e.phone = "01012345678";
+		e.salary = 1000;
+		e.position = "대리";
+		
+//		System.out.println(e.getName());
+//		결론 : 상속을 받으면 부모클래스의 멤버도 소유한다.
+//		자식클래스가 객체로 생성되면, 부모클래스 객체가 먼저 생성된다.
+		
+//		에러 : Person p = new Person();
+		Person p = new Person("또치", "010-1234-5678");
+		
+		Employee e2 = new Employee();
+		e2.showName();
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

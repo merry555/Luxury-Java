@@ -1,0 +1,10 @@
+package pck_Src;
+
+public class Employee {
+
+	String name;
+	String phone;
+	int salary;
+	String position;
+	
+}

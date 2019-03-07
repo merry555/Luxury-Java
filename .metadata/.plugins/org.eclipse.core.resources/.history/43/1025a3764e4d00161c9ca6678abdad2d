@@ -1,0 +1,10 @@
+package pck_Src;
+
+public class Player {
+//	3) 선수 : 이름, 연락처, 연봉, 키, 몸무게
+	String name;
+	String phone;
+	int salary;
+	double height, weight;
+	
+}

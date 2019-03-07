@@ -1,0 +1,77 @@
+import javax.swing.JOptionPane;
+
+// 설계용 클래스
+public class Person {
+
+	String name;
+	int age;
+	boolean hasPhone;
+	
+//	각 멤버의 정보를 세팅해주는
+//	setName(), setAge(), setHasPhone() 정의
+//	메인용 클래스에 이들 메소드 호출
+//	setAllMember() : 이름, 나이, 핸드폰유무를 모두 저장할 
+//	메소드 정의
+	
+//	this : 이 객체의
+//	결론 : 매개변수 이름이 (다른 변수 이름이) 멤버 변수의 이름과 같을 때
+//	멤버 변수 앞에 this.을 써주면 된다.
+	void setName(String name){
+		this.name = name;
+//		이 객체의 name 방에다가 매개변수 name 값을 저장하라.
+	}
+	void setAge(int age){
+		this.age = age;
+	}
+	void setHasPhone(boolean hasPhone){
+		this.hasPhone = hasPhone;
+	}
+	void setAllMembers(String name, int age, boolean hasPhone){
+		this.name = name;
+		this.age = age;
+		this.hasPhone = hasPhone;
+	}
+	
+	void showName(){
+		System.out.println(this.name);
+	}
+	
+//	생성자 만들어보자!
+//	우리가 생성자를 따로 만들지 않으면 다음 코드가 자동으로 추가된다.
+//	(우리 눈에 보이지는 않는다)
+//	public Person(){
+//		
+//	}
+	public Person(){
+		
+	}
+	public Person(String name){
+		this.name = name;
+	}
+	public Person(int age){
+		this.age = age;
+	}
+	public Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	public Person(String name, int age, boolean hasPhone){
+		this.name = name;
+		this.age = age;
+		this.hasPhone = hasPhone;
+		System.out.println("생성자 실행 완료!");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

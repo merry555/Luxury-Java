@@ -1,0 +1,11 @@
+package pck_Src;
+
+public class Person {
+
+	public String name;
+	public String phone;
+	
+	public String getName(){
+		return this.name;
+	}
+}

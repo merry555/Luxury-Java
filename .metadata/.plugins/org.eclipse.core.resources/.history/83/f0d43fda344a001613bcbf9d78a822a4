@@ -1,0 +1,11 @@
+
+public class _06_Static멤버변수 {
+
+	public static void main(String[] args) {
+		TestStatic t1 = new TestStatic();
+		TestStatic t2 = new TestStatic();
+		
+		t1.insMsg ="일반 변수가 바뀌었지롱~~";
+		System.out.println(t1.insMsg);
+	}
+}

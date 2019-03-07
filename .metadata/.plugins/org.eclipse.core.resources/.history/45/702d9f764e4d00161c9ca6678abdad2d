@@ -1,0 +1,8 @@
+package pck_Src;
+
+public class Student {
+//	1) 학생 : 이름, 연락처, 평균점수
+	String name;
+	String phone;
+	double avg;
+}

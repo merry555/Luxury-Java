@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="pck_Src.Employee"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="pck_Src.Triangle"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.nio.ReadOnlyBufferException"/>
+<fullyQualifiedTypeName name="pck_Src.Rectangle"/>
+<fullyQualifiedTypeName name="pck_Src.Circle"/>
+<fullyQualifiedTypeName name="pck_Src.Airplane"/>
+</qualifiedTypeNameHistroy>

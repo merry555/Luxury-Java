@@ -1,0 +1,45 @@
+package pck_Main;
+/*
+ * < 다형성 : polymorphism >
+ *  - 형태를 바꿀 수 있다
+ *  - 마우스 커서를 생각하자
+ *  	메모장 클릭 -> 메모장 사용
+ *  	인터넷 클릭 -> 인터넷 사용
+ *  - 레퍼런스 변수에 어떤 클래스가 들어가는지에 따라서, 
+ *    해당 클래스를 사용할 수 있는 것
+ */
+import pck_Src.*;
+public class _03_다형성 {
+
+	public static void main(String[] args) {
+		Tank t = new Tank();
+		Airplane a = new Airplane();
+		a.show();
+//		마우스 역할인 u는 tank를 다루고 싶다.
+		Unit u = new Tank();
+		u.go();
+		
+//		이번에는 전투기를 다루고 싶다	
+		u = new Airplane();
+		u.go();
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

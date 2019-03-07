@@ -1,0 +1,13 @@
+package pck_Main;
+/*
+ * <오버라이드 ? 부모 클래스의 메소드를, 자식 클래스가 수정하는 작업>
+ *  -> 부모 클래스 '메소드의 원형을 똑같이' 가진 자식 클래스 메소드 
+ *  참고) 메소드 원형 : 리턴자료형 메소드명(매개변수1 자료형, 매개변수2 자료형)
+ *  	ex) void show(String)
+ */
+public class _01_Override {
+	public static void main(String[] args) {
+		
+	}
+
+}

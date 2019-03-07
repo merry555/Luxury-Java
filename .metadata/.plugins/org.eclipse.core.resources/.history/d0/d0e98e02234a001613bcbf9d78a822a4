@@ -1,0 +1,26 @@
+
+public class _01_Method_Overloading {
+
+//	리턴자료형 : 하나의 메소드는 여러 자료형 데이터를 리턴할 수 없다. 
+//	매개변수 : 하나의 메소드는 정해진 형식과 다른 인자값을 넣을 수 없다.
+//		=> 유동적으로 메소드 실행 불가 ( 형식이 지정되어있기 때문 )
+//		=> 이를 개선하기 위해 메소드 오버로딩을 사용한다.
+	
+
+	public static void main(String[] args) {
+		show();
+	}
+	
+	static void show(){
+		System.out.println("나는 오리지널 show 메소드~~");
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+import javax.swing.JOptionPane;
+
+//메인용 클래스
+public class _05_메소드실습2 {
+
+	public static void main(String[] args) {
+		Person a = new Person();
+		Person b = new Person();
+		Person c = new Person();
+		
+		setPersonName(a);
+		setPersonName(b);
+		setPersonName(c);
+		
+	}
+	
+//	Person 객체에 이름을 저장해줄 메소드
+	static void setPersonName(Person p){
+		p.name = JOptionPane.showInputDialog("이름");
+	}
+	
+	
+	
+	
+	
+}

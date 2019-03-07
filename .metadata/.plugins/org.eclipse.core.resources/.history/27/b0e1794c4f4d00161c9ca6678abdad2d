@@ -1,0 +1,8 @@
+package pck_Src;
+
+public class Person {
+
+	String name;
+	String phone;
+	
+}

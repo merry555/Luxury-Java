@@ -1,0 +1,7 @@
+
+public class Pet {
+	String name;
+	int month;
+	String type;	// 동물 종류 
+	boolean hungry;
+}

@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+
+//설계용 클래스
+public class Person {
+
+	String name;
+	int age;
+	boolean hasPhone;
+	
+	void setName(){
+		name = JOptionPane.showInputDialog("이름");
+	}
+	void setAge(){
+		
+	}
+	void setHasphone(){
+		
+	}
+	
+	void showFields(){
+		
+	}
+
+}
